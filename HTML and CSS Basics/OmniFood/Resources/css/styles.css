@@ -64,7 +64,8 @@ h1 {
 
 .btn:hover,
 .btn:active {
-	background-color: #bf6516;
+	background-color: #924d10;
+	border: 1px solid #924d10;
 }
 
 .btn-ghost:hover,
