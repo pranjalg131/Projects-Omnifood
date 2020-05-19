@@ -1,3 +1,4 @@
+/*------------------------- BASIC SETUP ------------------------*/
 * {
 	margin: 0;
 	padding: 0;
@@ -11,10 +12,14 @@ html {
 	font-weight: 300;
 	text-rendering: optimizeLegibility;
 }
+
 .row {
 	max-width: 1140px;
 	margin: 0 auto;
 }
+
+/*----------------- HEADER ------------------*/
+
 header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
 		url(img/hero.jpg);
@@ -29,6 +34,44 @@ header {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+
+/*----------------- NAVBAR ------------------*/
+.logo {
+	margin-top: 20px;
+	float: left;
+	height: 100px;
+	width: auto;
+}
+
+.main-nav {
+	float: right;
+	list-style-type: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 55px;
+}
+
+nav li a:link,
+nav li a:visited {
+	padding: 8px 0;
+	text-decoration: none;
+	color: #fff;
+	font-size: 90%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-bottom: 2px transparent;
+	transition: border-bottom 0.2s;
+}
+
+nav li a:active,
+nav li a:hover {
+	border-bottom: 2px solid #e67e22;
+}
+
+/*----------------- REUSEABLE COMPONENTS ------------------*/
 h1 {
 	margin: 0;
 	margin-bottom: 30px;
