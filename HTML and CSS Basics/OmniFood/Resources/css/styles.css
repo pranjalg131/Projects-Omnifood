@@ -139,7 +139,6 @@ header {
 	transform: translate(-50%, -50%);
 }
 
-/*----------------- NAVBAR ------------------*/
 .logo {
 	margin-top: 20px;
 	float: left;
@@ -173,4 +172,25 @@ nav li a:visited {
 nav li a:active,
 nav li a:hover {
 	border-bottom: 2px solid #e67e22;
+}
+
+/*----------------- MEALS ------------------*/
+.meals {
+	width: 100%;
+	list-style: none;
+}
+.meals li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+.meal-photo {
+	width: 100%;
+	margin: 0;
+}
+
+.meal-photo img {
+	width: 100%;
+	height: auto;
 }
