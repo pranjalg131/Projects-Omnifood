@@ -84,7 +84,7 @@ h3 {
 	display: block;
 	color: #e67e22;
 	font-size: 350%;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 /*------------------------BUTTONS----------------------*/
@@ -175,6 +175,9 @@ nav li a:hover {
 }
 
 /*----------------- MEALS ------------------*/
+.section-meals {
+	padding: 0;
+}
 .meals {
 	width: 100%;
 	list-style: none;
@@ -188,9 +191,17 @@ nav li a:hover {
 .meal-photo {
 	width: 100%;
 	margin: 0;
+	background-color: black;
+	overflow: hidden;
 }
-
 .meal-photo img {
+	opacity: 0.7;
 	width: 100%;
 	height: auto;
+	transform: scale(1.15);
+	transition: transform 0.2s, opacity 0.2s;
+}
+.meal-photo img:hover {
+	opacity: 1;
+	transform: scale(1.03);
 }
