@@ -407,3 +407,74 @@ input[type=checkbox]{
 textarea{
 	height: 100px;
 }
+
+/*----------------Footer----------------*/
+
+footer{
+	background-color: #333;
+	padding: 40px;
+	font-size: 80%;
+}
+
+.navigation {
+	list-style: none;
+	float: left;
+}
+
+.social{
+	list-style: none;
+	float: right;
+}
+
+.navigation li,
+.social li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.navigation li:last-child,
+.social li:last-child{
+	margin-right: 0;
+}
+
+.navigation li a:link,
+.navigation li a:visited{
+	display: inline-block;
+	margin-right: 20px;
+	color: #888;
+	text-decoration: none;
+	border: 0;
+	transition: color 0.2s;
+}
+
+.navigation li a:hover,
+.navigation li a:active{
+	color: rgb(201, 201, 201);
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram{
+	font-size: 160%;
+	color: #888;
+	transition: color 0.2s;
+}
+
+.ion-social-facebook:hover{
+	color: #3b5998;
+}
+.ion-social-twitter:hover{
+	color: #00aced;
+}
+.ion-social-googleplus:hover{
+	color: #dd4b39;
+}
+.ion-social-instagram:hover{
+	color: #517fa4;
+}
+
+footer p{
+	text-align: center;
+	margin-top: 10px;
+}
