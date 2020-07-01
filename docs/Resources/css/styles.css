@@ -452,10 +452,7 @@ footer{
 	color: rgb(201, 201, 201);
 }
 
-.ion-social-facebook,
-.ion-social-twitter,
-.ion-social-googleplus,
-.ion-social-instagram{
+footer i{
 	font-size: 160%;
 	color: #888;
 	transition: color 0.2s;
