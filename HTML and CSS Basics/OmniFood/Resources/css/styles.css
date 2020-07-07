@@ -238,9 +238,18 @@ nav li a:hover {
 	color: #555;
 }
 .sticky .main-nav{margin-top: 19px;}
-
 .sticky .logo-black{display: block;}
 .sticky .logo{display: none;}
+
+/* Mobile Nav */
+.mobile-nav i {
+	float: right;
+	margin-top: 30px;
+	cursor: pointer;
+	display: none;
+	font-size: 200%;
+	color:#fff;
+}
 
 
 /*----------------- MEALS ------------------*/
