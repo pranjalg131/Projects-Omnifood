@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="./Vendors/css/grid.css" />
 	<link rel="stylesheet" type="text/css" href="./Resources/css/styles.css" />
 	<link rel="stylesheet" type="text/css" href="./Resources/css/queries.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css">
 	<link rel="stylesheet"
 		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" />
@@ -17,23 +18,24 @@
 		<nav>
 			<div class="row">
 				<img src="./Resources/img/logo-white.png" alt="Omnifood" class="logo" />
+				<img src="./Resources/img/logo.png" alt="Omnifood" class="logo-black" />
 				<ul class="main-nav">
-					<li><a href="#">Food delivery</a></li>
-					<li><a href="#">How it works</a></li>
-					<li><a href="#">Our cities</a></li>
-					<li><a href="#">Sign up</a></li>
+					<li><a href="#start">Food delivery</a></li>
+					<li><a href="#works">How it works</a></li>
+					<li><a href="#cities">Our cities</a></li>
+					<li><a href="#plans">Sign up</a></li>
 				</ul>
 			</div>
 		</nav>
 
 		<div class="hero-text-box">
 			<h1>Goodbye junk food<br />Hello super healthy meals</h1>
-			<a href="#" class="btn btn-full">I’m hungry</a>
-			<a href="#" class="btn btn-ghost">Show me more</a>
+			<a href="#" class="btn btn-full js--scroll-to-plans">I’m hungry</a>
+			<a href="#" class="btn btn-ghost js--scroll-to-start">Show me more</a>
 		</div>
 	</header>
 
-	<section class="section-features">
+	<section class="section-features js--section-features" id="start">
 		<div class="row">
 			<h2>Get food fast &mdash; not fast food.</h2>
 			<p class="long-copy">
@@ -43,7 +45,7 @@
 			</p>
 		</div>
 
-		<div class="row">
+		<div class="row js--wp-1">
 			<div class="col span-1-of-4 box">
 				<i class="ion-ios-infinite-outline icon-big"></i>
 				<h3>Up to 365 days/year</h3>
@@ -130,13 +132,13 @@
 		</ul>
 	</section>
 
-	<section class="section-steps">
+	<section class="section-steps" id="works">
 		<div class="row">
 			<h2>How it works &mdash; Simple as 1, 2, 3</h2>
 		</div>
 		<div class="row">
 			<div class="col span-1-of-2 steps-box">
-				<img src="Resources/img/app-iPhone.png" alt="Omnifood app-iPhone" class="app-screen">
+				<img src="Resources/img/app-iPhone.png" alt="Omnifood app-iPhone" class="app-screen js--wp-2">
 			</div>
 			<div class="col span-1-of-2 steps-box">
 				<div class="works-step">
@@ -157,12 +159,12 @@
 			</div>
 	</section>
 
-	<section class="section-cities">
+	<section class="section-cities" id="cities">
 		<div class="row">
 			<h2>We're currently in these cities</h2>
 		</div>
 
-		<div class="row">
+		<div class="row js--wp-3">
 			<div class="col span-1-of-4 box">
 				<img src="Resources/img/lisbon-3.jpg" alt="Lisbon">
 				<h3>Lisbon</h3>
@@ -256,13 +258,13 @@
 		</div>
 	</section>
 
-	<section class="section-plans">
+	<section class="section-plans js--section-plans" id="plans">
 		<div class="row">
 			<h2>Start eating healthy today</h2>
 		</div>
 		<div class="row">
 			<div class="col span-1-of-3">
-				<div class="plan-box">
+				<div class="plan-box js--wp-4">
 					<div>
 						<h3>Premium</h3>
 						<p class="plan-price"> $399 <span>/ month</span></p>
@@ -413,6 +415,13 @@
 			</p>
 		</div>
 	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="Vendors/js/jquery.waypoints.min.js"></script>
+	<script src="Resources/js/scripts.js"></script>
 </body>
 
 </html>
